@@ -58,3 +58,5 @@ pred = [int(p) for p in pred]
 val_predictions = model.predict(X_val)
 accuracy = accuracy_score(y_val, val_predictions)
 print(f'Validation Accuracy: {accuracy:.2f}')
+
+# Push again for workflow run
